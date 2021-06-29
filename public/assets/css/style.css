@@ -1128,12 +1128,14 @@ section {
 
 .team .member .social {
   position: absolute;
-  right: -100%;
-  top: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   opacity: 0;
   border-radius: 4px;
   transition: 0.5s;
-  background: rgba(255, 255, 255, 0.3);
+  background: #34e5a6;;
+  
   z-index: 2;
 }
 
@@ -1143,11 +1145,12 @@ section {
   margin: 15px 12px;
   display: block;
   line-height: 0;
+  color: white;
   text-align: center;
 }
 
 .team .member .social a:hover {
-  color: rgba(1, 41, 112, 0.8);
+  background: #1574a2;
 }
 
 .team .member .social i {
@@ -1167,7 +1170,7 @@ section {
 
 .team .member .member-info span {
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   color: #aaaaaa;
 }
@@ -1186,7 +1189,7 @@ section {
 }
 
 .team .member:hover .social {
-  right: 8px;
+  
   opacity: 1;
 }
 
